@@ -1,0 +1,86 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 3fc46c46-5e8a-4fc4-9d9d-5c2ee02b5c1f)
+
+  (paper "A4")
+
+  (title_block
+    (date "2023-12-18")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 19.05 88.9) (size 39.37 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 686e9b99-46c5-44a2-b392-de3fed1135f9)
+    (property "Sheetname" "USB to FPGA" (at 19.05 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "USB2FPGA.kicad_sch" (at 19.05 125.0446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "CycloneVSE_FrameworkExpansionCard"
+        (path "/3fc46c46-5e8a-4fc4-9d9d-5c2ee02b5c1f" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 99.06 21.59) (size 45.72 44.45) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8205bb64-22dc-4694-b322-cc1079d8e4b7)
+    (property "Sheetname" "FPGA" (at 99.06 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "FPGA_Main.kicad_sch" (at 99.06 66.6246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "CycloneVSE_FrameworkExpansionCard"
+        (path "/3fc46c46-5e8a-4fc4-9d9d-5c2ee02b5c1f" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 182.88 21.59) (size 45.72 44.45) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid afde289d-d528-4828-bdbc-195c3aee6a32)
+    (property "Sheetname" "Power" (at 182.88 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 182.88 66.6246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "CycloneVSE_FrameworkExpansionCard"
+        (path "/3fc46c46-5e8a-4fc4-9d9d-5c2ee02b5c1f" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 19.05 20.32) (size 39.37 46.99) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fd8cdaf5-eac9-4966-8737-b40bb24941ce)
+    (property "Sheetname" "Template" (at 19.05 19.6084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Template/Expansion_Card.kicad_sch" (at 19.05 67.8946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "CycloneVSE_FrameworkExpansionCard"
+        (path "/3fc46c46-5e8a-4fc4-9d9d-5c2ee02b5c1f" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
